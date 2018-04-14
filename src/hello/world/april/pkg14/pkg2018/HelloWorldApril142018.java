@@ -5,6 +5,8 @@
  */
 package hello.world.april.pkg14.pkg2018;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Kevin
@@ -16,7 +18,9 @@ public class HelloWorldApril142018 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    System.out.println("Hello World");
-            }
+    Scanner sc=new Scanner(System.in);
+    String name = sc.next();
+    System.out.println("Hello World,"+ name +"!" );
+ }
     
 }
